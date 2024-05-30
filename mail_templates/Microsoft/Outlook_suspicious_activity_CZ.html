@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr">
+<head>
+    <link id="dark-mode-custom-link" rel="stylesheet" type="text/css"/>
+    <link id="dark-mode-general-link" rel="stylesheet" type="text/css"/>
+    <style id="dark-mode-custom-style" lang="en" type="text/css">
+    </style>
+    <style id="dark-mode-native-style" lang="en" type="text/css">
+    </style>
+    <style id="dark-mode-native-sheet" lang="en" type="text/css">
+    </style>
+    <link id="dark-mode-custom-link" rel="stylesheet" type="text/css"/>
+    <link id="dark-mode-general-link" rel="stylesheet" type="text/css"/>
+    <style id="dark-mode-custom-style" lang="en" type="text/css">
+    </style>
+    <style id="dark-mode-native-style" lang="en" type="text/css">
+    </style>
+    <style id="dark-mode-native-sheet" lang="en" type="text/css">
+    </style>
+    <title>Microsoft Account</title>
+    <style type="text/css">body {
+        font-family: 'Segoe UI', Tahoma, Verdana, Arial, sans-serif;
+        color: #2a2a2a;
+    }
+
+    .header {
+        font-family: 'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif;
+        font-size: 17px;
+        color: #707070;
+    }
+
+    .title {
+        font-family: 'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif;
+        font-size: 41px;
+        color: #2672ec;
+    }
+
+    .content {
+        padding-top: 25px;
+        font-size: 14px;
+    }
+
+    .button {
+        background-color: #2672ec;
+        padding: 5px 20px;
+        min-width: 50px;
+    }
+
+    a {
+        font-family: 'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+<table dir="ltr">
+    <tbody>
+    <tr>
+        <td class="header esd-text">&Uacute;čet Microsoft</td>
+    </tr>
+    <tr>
+        <td class="title esd-text">Zkontrolujte podezřelou aktivitu</td>
+    </tr>
+    <tr>
+        <td class="content esd-text">V&scaron;imli jsme si neobvykl&eacute; aktivity u posledn&iacute;ho přihl&aacute;&scaron;en&iacute;
+            přes v&aacute;&scaron; &uacute;čet Microsoft ({{.Email}}). Mohli jste se možn&aacute; přihla&scaron;ovat z
+            jin&eacute;ho m&iacute;sta, zař&iacute;zen&iacute; nebo aplikace.
+        </td>
+    </tr>
+    <tr>
+        <td class="content esd-text">Abychom v&aacute;s ochr&aacute;nili, zablokovali jsme pro toto přihl&aacute;&scaron;en&iacute;
+            př&iacute;stup k va&scaron;&iacute; doručen&eacute; po&scaron;tě, seznamu kontaktů a kalend&aacute;ři.
+            Zkontrolujte si pros&iacute;m posledn&iacute; aktivitu na &uacute;čtu a my v&aacute;m pomůžeme &uacute;čet
+            zabezpečit. Abyste znovu z&iacute;skali př&iacute;stup, budete muset potvrdit, že byla tato posledn&iacute;
+            aktivita va&scaron;e.
+        </td>
+    </tr>
+    <tr>
+        <td class="content">
+            <table border="0" cellspacing="0">
+                <tbody>
+                <tr>
+                    <td class="button"><a href="{{.URL}}" style="color: #ffffff;" target="_blank">Zkontrolovat posledn&iacute;
+                        aktivitu</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="content esd-text">Děkujeme.</td>
+    </tr>
+    <tr>
+        <td class="content esd-text">T&yacute;m, kter&yacute; se star&aacute; o &uacute;čty Microsoft</td>
+    </tr>
+    </tbody>
+</table>
+
+<p class="esd-text">{{.Tracker}}</p>
+</body>
+</html>
